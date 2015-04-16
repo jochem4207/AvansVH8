@@ -1,9 +1,10 @@
 package com.jdkmedia.myfirstapp;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MyActivity extends ActionBarActivity {
@@ -14,6 +15,12 @@ public class MyActivity extends ActionBarActivity {
         setContentView(R.layout.activity_my);
     }
 
+    /**
+     * Called when the user clicks the Send button
+     */
+    public void sendMessage(View view) {
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
