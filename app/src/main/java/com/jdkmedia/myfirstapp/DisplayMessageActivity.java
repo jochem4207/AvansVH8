@@ -1,10 +1,8 @@
 package com.jdkmedia.myfirstapp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 
 public class DisplayMessageActivity extends ActionBarActivity {
@@ -14,6 +12,7 @@ public class DisplayMessageActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
 
         // Get the message from the intent
+        /*
         Intent intent = getIntent();
         String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
 
@@ -25,7 +24,10 @@ public class DisplayMessageActivity extends ActionBarActivity {
         textView.setText(message);
 
         setContentView(textView);
-//        setContentView(R.layout.activity_display_message);
+        */
+
+        setContentView(R.layout.activity_display_message);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 

@@ -1,8 +1,8 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:actionMenuTextColor">@color/material_deep_teal_500</item>
+        <!--<item name="android:actionMenuTextColor">@color/actionbar_text</item>-->
     </style>
-
 </resources>
