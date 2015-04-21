@@ -56,6 +56,6 @@ public class MyActivity extends ActionBarActivity {
     }
 
     private void openSearch() {
-        
+
     }
 }
