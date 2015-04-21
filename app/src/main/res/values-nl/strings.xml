@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mijn eerste app</string>
+    <string name="hello_world">Hallo wereld!</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="edit_message">Aanpassen:</string>
+    <string name="button_send">Versturen</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="action_search">Zoeken</string>
+</resources>
